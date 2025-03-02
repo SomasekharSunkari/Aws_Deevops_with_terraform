@@ -15,7 +15,7 @@ pipeline {
 
                 // Clone the Git repository
                 git branch: 'main',
-                    url: 'https://github.com/rahulwagh/devops-project-1.git'
+                    url: 'https://github.com/SomasekharSunkari/Aws_Deevops_with_terraform.git'
 
                 sh "ls -lart"
             }
